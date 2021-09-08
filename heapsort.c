@@ -1,6 +1,6 @@
-//Author : Prateek
-//Date : 23 AUG 2017
-
+// Author : Prateek
+// Date : 23 AUG 2017
+// Program to sort an integer array using heapsort algorithm
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>

@@ -76,14 +76,14 @@ int main()
 		insert(heap,b);
 	}
 	
-	printf("min heap:\t");
+	printf("\n%-25s:\t","min heap");
 	for(i=1;i<sz;i++)
 	{
 		printf("%d\t",heap[i]);
 	}
 	
 	
-	printf("\nArray in ascending order:");
+	printf("\n%-25s:\t","Array in ascending order");
 	
 	int ele;
 	ele=delete(heap);
@@ -92,6 +92,6 @@ int main()
 		printf("%d\t",ele);
 		ele=delete(heap);
 	}
-	
+	printf("\n");
 	return 0;
 }
